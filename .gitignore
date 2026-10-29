@@ -1,0 +1,26 @@
+.build/
+.DS_Store
+Butlr.app/
+
+# Local credentials and diagnostics
+.env
+.env.*
+!.env.example
+*.log
+*.p12
+*.pfx
+*.key
+
+# Release archives and publish output
+dist/
+publish/
+bin/
+obj/
+*.zip
+
+CLAUDE.md
+AGENTS.md
+docs/
+
+# Local Laya decision server (Python venv + model cache)
+laya-server/.venv/
